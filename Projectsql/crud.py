@@ -196,7 +196,7 @@ while(programme):
        date=input("Date ")
        level=input("level")
 
-       create_langage(nom,date,level)
+       create_langage(name,date,level)
        create_message(f"l'utilisateur {nom} a ajouté {name} le {str(datetime.now())}")
 
     elif choice == 2:
